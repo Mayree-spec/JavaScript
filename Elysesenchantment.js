@@ -37,8 +37,6 @@ export function insertItemAtTop(cards, newCard) {
   return card.push(newCard);
 }
 
-/**
- * Remove the card at the 0-based position
  *
  * @param {number[]} cards
  * @param {number} position
